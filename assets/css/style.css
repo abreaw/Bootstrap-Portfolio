@@ -1,0 +1,82 @@
+
+/* box to hold all the main content of the page */
+.container
+{
+	/* set background image */
+	background-image: url('../images/sayagata-400px.png');
+
+	width: 100%;
+
+	padding: 20px;
+	/*padding-top: 40px;*/
+}
+
+/*.changeNavStyle
+{
+	background-color: #59CCC6;
+	color: white;
+	margin-left: 20px;
+}*/
+
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+p
+{
+	float: left;
+	padding-top: 20px;
+}
+
+blockquote
+{
+	/*padding-left: 20px;*/
+	margin-left: 30px;
+	margin-top: 20px;
+	border-color: #5E7F7E;
+}
+
+hr
+{
+	border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #5E7F7E; /* old IE */
+    background-color: #5E7F7E; /* Modern Browsers */
+}
+
+.footerArea
+{
+	text-align: center;
+	font-size: 90%;
+	color: #cccccc;
+	
+	border-top: 10px solid #4aaaa5;  /* set bottom border to 2 pixels w/ a solid border & color of teal */
+	padding: 20px 0px;
+
+	background-color: #777777;
+}
+
+.socialContent
+{
+	background-color: #f8f8f8;  /* set background color for header area to white */
+	border: 2px solid #e7e7e7;
+	text-align: center;
+	padding-bottom: 20px;
+	/*margin-right: 20px;*/
+
+}
+
+.mainContent
+{
+	padding: 0px 25px;
+}
+
+h3
+{
+	border-bottom: 2px solid #4aaaa5;
+	color: #5E7F7E;
+	padding-bottom: 10px;
+	/*background-color: #BBFFFB;*/
+}
