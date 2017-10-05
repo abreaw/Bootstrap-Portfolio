@@ -32,9 +32,12 @@ p
 blockquote
 {
 	/*padding-left: 20px;*/
-	margin-left: 30px;
-	margin-top: 20px;
+	/*margin-left: 30px;
+	margin-top: 30px;*/
+	margin: 40px;
 	border-color: #5E7F7E;
+
+	font-size: 2em;
 }
 
 hr
@@ -79,6 +82,16 @@ h3
 	color: #5E7F7E;
 	padding-bottom: 10px;
 	/*background-color: #BBFFFB;*/
+}
+
+.profilePic
+{
+	margin-bottom: 20px;
+}
+
+.importantList, .introParagraph
+{
+	font-size: 150%;
 }
 
 /* style the images on the portfolio page the same */
