@@ -64,7 +64,7 @@ hr
 	border: 2px solid #e7e7e7;
 	text-align: center;
 	padding-bottom: 20px;
-	/*margin-right: 20px;*/
+	/*margin-right: 20px;*/  /* can't add margin ... causes issues w/ alginment */
 
 }
 
@@ -79,4 +79,43 @@ h3
 	color: #5E7F7E;
 	padding-bottom: 10px;
 	/*background-color: #BBFFFB;*/
+}
+
+/* style the images on the portfolio page the same */
+.portfolioImages
+{
+	/* set this position property to relative to make the label element class be placed relative to this element */
+	position: relative;
+
+	margin-top: 20px;
+	/*display: inline-block;*/
+	/*width: 100%;*/
+
+}
+
+/* position some of the images to the left on the main content section */
+/*.portfolioImagesLeft
+{
+	
+	float: left;
+	
+}*/
+
+/* style the labels on the portfolio images the same */
+.portfolioLabels
+{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 10px 0px;  /* put some space around the wording (content) and the background box */
+	opacity: 0.9;  /* make the label a little see through */
+
+	/* take out the other margins set previously for the h2 elements */
+	/*margin: 0px;*/
+
+	/* set this position property to allow the label to move to a position that is relative to it's ancestor (the image section) */
+	position: absolute;
+	bottom: 10%;   /* put it 40px above the bottom of the ancestor element */
+	width: 100%;	/* span the full width of the ancestor element */
+
 }
