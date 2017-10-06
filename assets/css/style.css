@@ -132,3 +132,25 @@ h3
 	width: 100%;	/* span the full width of the ancestor element */
 
 }
+
+/* style the labels on the contact us main section area */
+.contactForm label
+{
+	line-height: 150%;	
+}
+
+/* style the input fields for the contact page */
+.contactForm input
+{
+	line-height: 150%;
+}
+
+/* style the text box on the contact form */
+.contactForm textarea
+{
+	line-height: 150%;
+	height: 200px;
+
+	/* add a scroll bar to the box if content gets more than the size of the box area */
+	overflow: auto;
+}
