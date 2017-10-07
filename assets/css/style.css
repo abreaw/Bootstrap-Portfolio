@@ -8,19 +8,22 @@
 	width: 100%;
 
 	padding: 20px;
-	/*padding-top: 40px;*/
 }
-
-/*.changeNavStyle
-{
-	background-color: #59CCC6;
-	color: white;
-	margin-left: 20px;
-}*/
 
 .navbar
 {
 	margin-bottom: 0px;
+}
+
+.changeNameStyle
+{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.changeNavStyle
+{
+	font-size: 1.2em;
 }
 
 p
@@ -31,22 +34,10 @@ p
 
 blockquote
 {
-	/*padding-left: 20px;*/
-	/*margin-left: 30px;
-	margin-top: 30px;*/
 	margin: 40px;
 	border-color: #5E7F7E;
 
 	font-size: 2em;
-}
-
-hr
-{
-	border: none;
-    height: 2px;
-    /* Set the hr color */
-    color: #5E7F7E; /* old IE */
-    background-color: #5E7F7E; /* Modern Browsers */
 }
 
 .footerArea
@@ -67,8 +58,6 @@ hr
 	border: 2px solid #e7e7e7;
 	text-align: center;
 	padding-bottom: 20px;
-	/*margin-right: 20px;*/  /* can't add margin ... causes issues w/ alginment */
-
 }
 
 .mainContent
@@ -76,12 +65,23 @@ hr
 	padding: 0px 25px;
 }
 
+/* class to style the heading for the main content section of the site */
+.mainContentHeading
+{
+	border-bottom: 3px solid #cccccc;  /* set bottom border to 2 pixels w/ a solid border & color of gray */
+	padding: 10px 0px;  /* add padding to the top & bottom areas */
+
+	color: #4aaaa5;  /* set font color */
+
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
 h3
 {
 	border-bottom: 2px solid #4aaaa5;
 	color: #5E7F7E;
 	padding-bottom: 10px;
-	/*background-color: #BBFFFB;*/
 }
 
 .profilePic
@@ -101,18 +101,8 @@ h3
 	position: relative;
 
 	margin-top: 20px;
-	/*display: inline-block;*/
-	/*width: 100%;*/
 
 }
-
-/* position some of the images to the left on the main content section */
-/*.portfolioImagesLeft
-{
-	
-	float: left;
-	
-}*/
 
 /* style the labels on the portfolio images the same */
 .portfolioLabels
@@ -122,9 +112,6 @@ h3
 	text-align: center;
 	padding: 10px 0px;  /* put some space around the wording (content) and the background box */
 	opacity: 0.9;  /* make the label a little see through */
-
-	/* take out the other margins set previously for the h2 elements */
-	/*margin: 0px;*/
 
 	/* set this position property to allow the label to move to a position that is relative to it's ancestor (the image section) */
 	position: absolute;
@@ -137,6 +124,8 @@ h3
 .contactForm label
 {
 	line-height: 150%;	
+	color: #4aaaa5;
+	font-size: 1.2em;
 }
 
 /* style the input fields for the contact page */
@@ -153,4 +142,11 @@ h3
 
 	/* add a scroll bar to the box if content gets more than the size of the box area */
 	overflow: auto;
+}
+
+.myButton
+{
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 1.2em;
 }
